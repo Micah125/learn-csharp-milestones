@@ -48,35 +48,35 @@ Below is a list of tasks that correspond roughly to the "Take Action" sections o
 ## Chapter 1
 Getting to Know Your Environment (9–21)
 
-- [ ] ✏️ Open the reference manual for any component from inside Unity. Paste the link: **??** https://docs.unity3d.com/6000.0/Documentation/Manual/GameObjects.html
-- [ ] ✏️ Find the button to jump to the scripting reference the any reference manual page. Paste the link: **??** https://docs.unity3d.com/6000.0/Documentation/Manual/class-Rigidbody.html
-- [ ] ✏️ Search for the `Strings` class in [Microsoft's C# documents](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/). Paste the link: **??** https://learn.microsoft.com/en-us/dotnet/api/system.string?view=net-8.0
+- [✅] ✏️ Open the reference manual for any component from inside Unity. Paste the link: https://docs.unity3d.com/6000.0/Documentation/Manual/GameObjects.html
+- [✅] ✏️ Find the button to jump to the scripting reference the any reference manual page. Paste the link: https://docs.unity3d.com/6000.0/Documentation/Manual/class-Rigidbody.html
+- [✅] ✏️ Search for the `Strings` class in [Microsoft's C# documents](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/). Paste the link: https://learn.microsoft.com/en-us/dotnet/api/system.string?view=net-8.0
 
 
 ## Chapter 2
 The Building Blocks of Programming (22–37)
 
-- [ ] Open the Unity project contained within this repo
-- [ ] Create Assets/Scripts/LearningCurve.cs
-	- [ ] Create C# variables with typeof `int`, `float`, `string`, and `bool`
-	- [ ] Add a single line, multi line, and summary comment to LearningCurve.cs
-	- [ ] Run the code in LearningCurve by attaching it to the Main Camera GameObject
+- [✅] Open the Unity project contained within this repo
+- [✅] Create Assets/Scripts/LearningCurve.cs
+	- [✅] Create C# variables with typeof `int`, `float`, `string`, and `bool`
+	- [✅] Add a single line, multi line, and summary comment to LearningCurve.cs
+	- [✅] Run the code in LearningCurve by attaching it to the Main Camera GameObject
 
 
 ## Chapter 3
 Diving into Variables, Types, and Methods (38–64)
 
-- [ ] Update Assets/Scripts/LearningCurve.cs
-	- [ ] Variables
-		- [ ] Use access modifiers to make your variables explicitly `public` and `private`
-		- [ ] Use `Debug.Log` and `Debug.LogFormat` to log your variables to the console
-		- [ ] Concatenate strings using the `+` operator, and the string interpolation method `$`
-	- [ ] Methods
-		- [ ] Define a simple method with parameters
-		- [ ] Add a return type and return some data from a method
-		- [ ] Use data returned from a method
-- [ ] ✏️ Explain some differences between public and private variables: **??**
-
+- [✅] Update Assets/Scripts/LearningCurve.cs
+	- [✅] Variables
+		- [✅ ] Use access modifiers to make your variables explicitly `public` and `private`
+		- [✅] Use `Debug.Log` and `Debug.LogFormat` to log your variables to the console
+		- [✅] Concatenate strings using the `+` operator, and the string interpolation method `$`
+	- [✅] Methods
+		- [✅] Define a simple method with parameters
+		- [✅] Add a return type and return some data from a method
+		- [✅] Use data returned from a method
+- [✅] ✏️ Explain some differences between public and private variables: **??**
+Public variables can be  accessed from other classes and scripts in Unity, so you can use various differing scripts to modify them while on the otehr hand private variables are restricted to the class where they are defined. 
 
 ## Chapter 4
 Control Flow and Collection Types (65–93)
